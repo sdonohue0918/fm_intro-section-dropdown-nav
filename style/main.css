@@ -65,7 +65,7 @@ body {
     position: relative;
     margin: 0 auto;
     background-color: blue;
-    width: 60vw;
+    width: 80vw;
     margin-top: 2rem;
     min-height: 70vh;
     display: grid;
@@ -87,6 +87,7 @@ body {
     color: hsl(0, 0%, 41%);
     padding: 1.5rem;
     width: 50%;
+    line-height: 1.5;
 }
 
 .content__text-button {
