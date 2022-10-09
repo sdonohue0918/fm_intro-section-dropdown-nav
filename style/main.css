@@ -31,7 +31,11 @@ body {
 }
 
 .header__nav1 span {
-    padding: 0 1.25rem;
+    padding: 0 1rem;
+}
+
+.header__nav1 span:hover {
+    cursor: pointer;
 }
 
 .header__nav2 {
@@ -47,5 +51,11 @@ body {
 }
 
 .header__nav2 span {
-    padding: 0 1.25rem;
+    padding: 0.80rem 1.5rem;
+}
+
+.header__nav2 span:hover {
+    cursor: pointer;
+    border: solid 1px hsl(0, 0%, 41%);
+    border-radius: 15px;
 }
