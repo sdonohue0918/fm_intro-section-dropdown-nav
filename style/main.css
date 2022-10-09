@@ -60,3 +60,18 @@ body {
     border: solid 1px hsl(0, 0%, 41%);
     border-radius: 15px;
 }
+
+.content {
+    background-color: blue;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.content__text {
+
+}
+
+.content__image {
+
+}
