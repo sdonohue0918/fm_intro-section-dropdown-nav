@@ -5,18 +5,19 @@ html * {
 
 body {
     background-color: hsl(0, 0%, 98%);
+    position: absolute;
 }
 
 .header {
     width: 100vw;
     margin: 0 auto;
-    display: inline-flex ;
+    display: inline-flex;
 }
 
 .header__brand {
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 .header__nav1 {
